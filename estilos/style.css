@@ -1,0 +1,53 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: gray;
+}
+
+header{
+    background-color: rgb(182, 178, 178);
+}
+
+h1, h2{
+    padding: 10px;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    border: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    width: 90vw;
+    margin: 10px auto;
+    padding: 10px;
+    text-indent: 20px;
+}
+
+p{
+    margin-bottom: 10px;
+    text-align: justify;
+}
