@@ -17,6 +17,20 @@ h1, h2{
     text-align: center;
 }
 
+.material-icons.md-38{
+    font-size: 38px;
+    color: white;
+    background-color: black;
+    display: block;
+    text-align: center;
+}
+
+.material-icons.md-38:hover{
+    background-color: azure;
+    color: black;
+    cursor: pointer;
+}
+
 ul{
     list-style: none;
 }

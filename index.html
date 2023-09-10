@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Usando menu Hambúrguer</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <script src="javascript/acoes.js" defer></script>
 </head>
-<body>
+<body onresize="mudarTamanho()">
     <header>
         <h1>Meu site</h1>
+        <span class="material-icons md-38" id="menu" onclick="clickMenu()">menu</span>
         <nav>
-            <ul>
+            <ul id="teste">
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
                 <li><a href="#">Opção 3</a></li>
